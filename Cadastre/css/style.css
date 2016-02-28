@@ -1,0 +1,201 @@
+html {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    font-family: helvetica_neueregular, Tahoma, Arial;
+    font-size: 11px;
+}
+.clearfix::after {
+    display: block;
+    content: '';
+    clear: both;
+    float: none;
+}
+.top-menu {
+    background-color: #074f8f;
+}
+.top-menu > div {
+    color: #fff;
+    float: right;
+}
+.ola {
+    background: -webkit-linear-gradient(bottom, #2e7ac4, #50afdc);
+    background: -o-linear-gradient(bottom, #2e7ac4, #50afdc);
+    background: linear-gradient(to top, #2e7ac4, #50afdc);
+    padding: 12px 15px;
+}
+.ola a {
+    text-decoration: underline;
+    color: #fff;
+}
+.offers {
+    border: 1px solid #56a2dc;
+    border-width: 0 1px;
+    padding: 0 15px;
+    margin: 2px 0;
+}
+.offers .fa-flag {
+    font-size: 23px;
+    padding: 0px;
+    vertical-align: middle;
+}
+.offers a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0 10px 10px;
+    display: inline-block;
+}
+.pages li {
+    display: inline-block;
+}
+.pages a {
+    color: #60b5ed;
+    text-decoration: none;
+    padding: 12px 14px;
+    display: inline-block;
+}
+.pages a:hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+.box {
+    position: fixed;
+    width: 560px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.63);
+}
+.header {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 22px;
+    border-bottom: 2px solid #cad0c2;
+}
+.content {
+    padding: 36px 0 22px;
+    color: #ccc;
+}
+.facebook {
+    margin: 0 auto;
+    width: 276px;
+    color: #fff;
+    font-size: 11px;
+}
+.f {
+    float: left;
+    border-top: 1px solid #758ab7;
+    border-right: 1px solid #1f3c74;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    background: -webkit-linear-gradient(bottom, #304274, #3b5798);
+    background: -o-linear-gradient(bottom, #304274, #3b5798);
+    background: linear-gradient(to top, #304274, #3b5798);
+    font-size: 20px;
+}
+.facebook .link {
+    float: left;
+    font-size: 12px;
+    border-top: 1px solid #758ab7;
+    border-left: 1px solid #4e69ac;
+    text-align: center;
+    background: -webkit-linear-gradient(bottom, #304274, #3b5798);
+    background: -o-linear-gradient(bottom, #304274, #3b5798);
+    background: linear-gradient(to top, #304274, #3b5798);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+b {
+    font-weight: bold;
+}
+.facebook a {
+    color: #fff;
+    text-decoration: none;
+}
+.f a {
+    display: inline-block;
+    padding: 6px 0 8px;
+    width: 37px;
+}
+.facebook .link a {
+    display: inline-block;
+    padding: 10px 0 12px;
+    width: 237px;
+}
+.separator {
+    margin: 0 auto;
+    width: 276px;
+    padding: 30px 0 25px;
+}
+.separator table {
+    width: 100%;
+    border-collapse: separate;
+}
+.separator .text {
+    width: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+tr:first-child>td:first-child,
+tr:first-child>td:last-child {
+    border-bottom: 1px solid #666;
+}
+tr:last-child>td {
+    border-top: 1px solid #000;
+}
+.form {
+    width: 276px;
+    margin: 0 auto;
+}
+[type=text],
+[type=email],
+[type=password] {
+    width: 236px;
+    margin-top: 20px;
+    color: #ccc;
+    border: 0;
+    border-bottom: 1px solid #484948;
+    padding: 12px 20px;
+    background: -webkit-linear-gradient(bottom, #111, #100f0e);
+    background: -o-linear-gradient(bottom, #111, #100f0e);
+    background: linear-gradient(to top, #111, #100f0e);
+}
+[type=text]:focus,
+[type=email]:focus,
+[type=password]:focus {
+    box-shadow: 0 0 6px 2px #4b85af;
+    background: #1b5288;
+}
+.form .checkbox {
+    margin-top: 20px;
+}
+.checkbox input {
+    display: inline-block;
+    padding: 10px 0 0;
+}
+.checkbox label {
+    display: inline-block;
+    padding: 6px 0 0;
+}
+[type=submit] {
+    display: block;
+    margin: 20px auto 0;
+    background: -webkit-linear-gradient(bottom, #3686ca, #4faddb);
+    background: -o-linear-gradient(bottom, #3686ca, #4faddb);
+    background: linear-gradient(to top, #3686ca, #4faddb);
+    border-radius: 5px;
+    padding: 10px 13px;
+    color: #fff;
+    border 0;
+    border-top: 1px solid #67c6e6;
+}
+.footer {
+    margin-top: 20px;
+    text-align: center;
+}
